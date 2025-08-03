@@ -52,7 +52,9 @@ This project analyzes osteoarthritis treatment data to identify patterns in pain
 ### 1. Data Preprocessing
 - **Missing Value Handling:** Removed rows with null values
   * for loading the dataset*
-  'df = pd.read_csv("OsteoarthritisData.csv")'
+  '''python
+df = pd.read_csv("OsteoarthritisData.csv")
+'''
   * for checking for missing values*
   'print("Missing values:\n", df.isnull().sum())'
    <img width="287" height="452" alt="image" src="https://github.com/user-attachments/assets/023c5b07-f806-4c8a-9629-dd92a02cdc6c" />
