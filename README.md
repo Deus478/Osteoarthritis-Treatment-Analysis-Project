@@ -61,12 +61,12 @@ This project analyzes osteoarthritis treatment data to identify patterns in pain
   'df = df.drop_duplicates()'
 - **Outlier Detection:** Applied IQR method to remove outliers in pain scores
 
-  "Q1 = df['y'].quantile(0.25)
-   Q3 = df['y'].quantile(0.75)
-   IQR = Q3 - Q1
-   lower = Q1 - 1.5 * IQR
-   upper = Q3 + 1.5 * IQR
-   df = df[(df['y'] >= lower) & (df['y'] <= upper)]"
+  " Q1 = df['y'].quantile(0.25)
+    Q3 = df['y'].quantile(0.75)
+    IQR = Q3 - Q1
+    lower = Q1 - 1.5 * IQR
+    upper = Q3 + 1.5 * IQR
+    df = df[(df['y'] >= lower) & (df['y'] <= upper)]
   
 - **Feature Encoding:** One-hot encoded categorical variables (`treatname`, `AuthorDate`)
   " df_encoded = pd.get_dummies(df, columns=['treatname'], drop_first=True) "
