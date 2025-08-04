@@ -35,9 +35,10 @@ This project analyzes osteoarthritis treatment data to identify patterns in pain
 ## 📁 Project Structure
 
 ```
-├── OsteoarthritisData.csv : Original dataset
-├── Cleaned_OsteoarthritisData.csv : Processed dataset
+├├── OsteoarthritisData.csv :Original dataset
+├── Cleaned_OsteoarthritisData.csv : Processed dataset for Power BI
 ├── osteoarthritis_analysis.py : Main analysis script
+├── osteoarthritis_dashboard.pbix : Power BI dashboard file
 ├── README.md : Project documentation
 └── outputs/
     ├── eda_correlation_heatmap.png
@@ -302,6 +303,7 @@ plot_elbow_method(X)
 <img width="812" height="805" alt="image" src="https://github.com/user-attachments/assets/51a59b33-79a1-4c64-b9a6-8e9b3e260e1f" />
 
 
+
 **Power BI Integration**
 -Connected cleaned dataset to Power BI Desktop
 KPI Development: Created key performance indicators for executive summary
@@ -338,23 +340,6 @@ Professional Styling: Consistent color themes and clean layouts
 **summary for powerbi**
 <img width="413" height="251" alt="image" src="https://github.com/user-attachments/assets/0b75d831-6b1e-4461-87bb-3d23542fb7c0" />
 
-
-## 🚀 How to Run the Project
-
-### Prerequisites
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-### Execution Steps
-1. Clone this repository
-2. Ensure `OsteoarthritisData.csv` is in the project directory
-3. Run the analysis script:
-   ```python
-   python osteoarthritis_analysis.py
-   ```
-4. Check the `outputs/` folder for generated visualizations
-5. Review `Cleaned_OsteoarthritisData.csv` for processed data
 
 ## 📊 Generated Outputs
 
@@ -415,5 +400,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 - Open-source community for providing excellent tools and libraries
 - Healthcare professionals providing domain expertise
 
+**CONCLUSION**
+This project is about finding the best treatment and ways to take care of osteoarthritis patients as this immune dieases causes alot of body deformation and health problems 
+this project includes some solutions for it.
 
 
