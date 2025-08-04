@@ -291,9 +291,53 @@ plot_elbow_method(X)
 - Treatments ranked by effectiveness within each patient cluster
   
   <img width="594" height="427" alt="image" src="https://github.com/user-attachments/assets/4a839a91-c9c8-4377-b8db-844ddc788c29" />
+  <img width="1200" height="796" alt="image" src="https://github.com/user-attachments/assets/bb7daedb-dbd6-4a01-955f-d32540ebce54" />
+
   
 - Lower pain scores indicate better treatment outcomes
 - Cluster-specific treatment recommendations generated
+  . Interactive Dashboard Development
+
+  **all about clusters**
+<img width="812" height="805" alt="image" src="https://github.com/user-attachments/assets/51a59b33-79a1-4c64-b9a6-8e9b3e260e1f" />
+
+
+**Power BI Integration**
+-Connected cleaned dataset to Power BI Desktop
+KPI Development: Created key performance indicators for executive summary
+Interactive Visualizations: Built responsive charts with slicers and filters
+Dashboard Design: Applied consistent themes and professional layouts
+
+📊 Power BI Dashboard Components
+Executive Summary Page
+
+KPI Cards: Total patients analyzed, average pain score, treatment types, best treatment
+<img width="1027" height="714" alt="image" src="https://github.com/user-attachments/assets/b3576a8a-1ec9-4cd6-8d13-1bc13a5cedc8" />
+
+Treatment Overview: High-level insights and recommendations
+Interactive Elements: Slicers for dynamic filtering
+<img width="1016" height="650" alt="image" src="https://github.com/user-attachments/assets/8f95b160-410b-4d0f-ba25-576405efe49f" />
+
+
+Treatment Analysis Page
+
+Pain Score Distribution: Column chart showing pain score patterns
+Treatment Effectiveness: Scatter plot of sample size vs pain scores
+Temporal Analysis: Line chart of pain scores over follow-up time
+Study Overview Table: Detailed data reference with conditional formatting
+
+Interactive Features
+
+Dynamic Filtering: Slicers for sample size and follow-up time ranges
+Cross-Visual Filtering: Click interactions between charts
+Responsive Design: Optimized for desktop and mobile viewing
+Professional Styling: Consistent color themes and clean layouts
+**powerBI dashboard**
+<img width="1166" height="677" alt="image" src="https://github.com/user-attachments/assets/1fb384e4-290a-4b50-a3e3-9272d44279d2" />
+
+**summary for powerbi**
+<img width="413" height="251" alt="image" src="https://github.com/user-attachments/assets/0b75d831-6b1e-4461-87bb-3d23542fb7c0" />
+
 
 ## 🚀 How to Run the Project
 
