@@ -1,3 +1,8 @@
+NTWARI Deus
+id:25048
+
+
+
 # Osteoarthritis Treatment Analysis Using Machine Learning
 
 ## 📋 Project Overview
